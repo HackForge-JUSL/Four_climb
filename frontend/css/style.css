@@ -79,3 +79,77 @@ header nav:hover > a:not(:hover) {
 .about h1 {
     font-size: 40px;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    margin: 0;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-family: "Poppins", sans-serif;
+    background: #333;
+  }
+  
+  footer {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: #121315;
+    justify-content: center;
+    align-items: center
+    ;
+  }
+  footer ul {
+    list-style: none;
+  }
+ 
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em;
+  }
+  .footer .container {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+  }
+ 
+  .media-icons li,
+  .services-icons li {
+    display: inline-block;
+    margin: 0.5em 0.5em 0.5em 0;
+  }
+  .media-icons a {
+    font-size: 1.1em;
+    width: 2em;
+    height: 2em;
+    border: 1px #fff solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+  }
+  .media-icons a:hover {
+    background: #fff;
+    color: #111;
+  }
+  .services-icons a {
+    font-size: 1.6em;
+  }
+  .services-icons a:hover {
+    color: #94fbab;
+  }
+  .footer-bottom {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgba(138, 208, 153, 0.36);
+    padding: 2em;
+  }

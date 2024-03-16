@@ -65,7 +65,7 @@ header nav:hover > a:not(:hover) {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 80px;
+    font-size: 35px;
     text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -97,7 +97,7 @@ header nav:hover > a:not(:hover) {
     margin: 0;
     padding: 0;
     color: #fff;
-    background: #121315;
+    background: #9290C3;
     justify-content: center;
     align-items: center
     ;

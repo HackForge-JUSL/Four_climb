@@ -14,7 +14,8 @@ const textRoutes = require('./routes/text.routes');
 app.use('/sms', textRoutes);
 
 // Use call router
-
+const callRoutes = require('./routes/call.routes');
+app.use('/voice', callRoutes);
 
 // app.use("/", (req,res)=>{
 //     res.send("Hello world!");

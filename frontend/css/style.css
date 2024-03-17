@@ -71,7 +71,7 @@ header nav:hover > a:not(:hover) {
 
 .about {
     padding: 50px;
-    background: #3B3291;
+    background: #3B3291,  rgb(35,21,80);
     color: white;
     position: relative;
     z-index: 100;
@@ -97,7 +97,7 @@ header nav:hover > a:not(:hover) {
     margin: 0;
     padding: 0;
     color: #fff;
-    background: #9290C3;
+    background: linear-gradient(rgb(35,21,80), black);
     justify-content: center;
     align-items: center
     ;

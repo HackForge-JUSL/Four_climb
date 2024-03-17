@@ -9,6 +9,10 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 header {
     display: flex;
     justify-content: space-between;

@@ -18,3 +18,21 @@ document.addEventListener('scroll', function() {
     mount1.style.marginBottom = -value * 2.1 + 'px'
     mount2.style.marginBottom = -value * 1.2 + 'px'
 })
+
+let mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.documentElement.scrollTop = 0; 
+}

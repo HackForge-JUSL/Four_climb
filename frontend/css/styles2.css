@@ -11,7 +11,7 @@
 body {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(#3B3291,rgb(20, 25, 98)) ;
+  background: linear-gradient(#3B3291, rgb(20, 25, 98));
 }
 
 
@@ -46,14 +46,14 @@ body {
 }
 
 
-.Process{
-  
-    background: linear-gradient(rgb(20, 25, 98), rgb(35,21,80));
-  
+.Process {
+
+  background: linear-gradient(rgb(20, 25, 98), rgb(35, 21, 80));
+
 }
 
 @media screen and (max-width: 1023px) {
-  
+
   .hero-section .hero {
     max-width: 100%;
     text-align: center;

@@ -9,7 +9,7 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 // });
 // const openai = new OpenAIApi(configuration);
 
-const genAI = new GoogleGenerativeAI('AIzaSyBH4uAaTbAhUInGARMjnCs78lqLUwNgeig');
+const genAI = new GoogleGenerativeAI(process.env.GPT_API_KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash"});
 
 const post = async (req, res) => {

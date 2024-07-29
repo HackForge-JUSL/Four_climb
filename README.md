@@ -10,7 +10,11 @@
 
 An offline Google Assistant, that answers your questions without internet!
 
-Watch Demo Video - <a href=''>Click here</a>
+Watch Demo Video - <a href='https://youtu.be/GyAh_ADMFKA'>Click here</a>
+
+Backend deploy server link - https://saathi-server.onrender.com/
+
+To use our app, send an sms or voice call on this number - `+16508307312`
    
 </div>
 
@@ -82,6 +86,10 @@ As texting is not always convenient for non-smart cell phone users, another opti
 
 <h2>Demo Video</h2>
 
+
+
+
+https://github.com/user-attachments/assets/dd48cb81-171b-48ab-9fd6-5695b337cdae
 
 
 
